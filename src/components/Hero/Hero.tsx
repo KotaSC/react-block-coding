@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Container from "../Container/Container";
-import Social from "./Social";
+import Social from "../Social/Social";
+import profileImg from "../../assets/images/profile.jpg";
 
 const S_Hero = styled.section``;
 
@@ -33,7 +34,17 @@ const Hero = () => {
             <Social />
           </S_HeroLinks>
         </S_HeroHighlight>
-        <S_HeroImage></S_HeroImage>
+        <S_HeroImage>
+          <img src={profileImg} alt="profile" />
+          <a href="https://pixabay.com/ja/users/jaclou-dl-5602247/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7840767">
+            JackieLou DL
+          </a>
+          による
+          <a href="https://pixabay.com/ja//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7840767">
+            Pixabay
+          </a>
+          からの画像
+        </S_HeroImage>
       </Container>
     </S_Hero>
   );
