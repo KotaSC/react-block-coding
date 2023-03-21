@@ -10,6 +10,7 @@ const Main = () => {
     <S_Main>
       <Hero />
       <Works />
+      <About />
     </S_Main>
   );
 };
