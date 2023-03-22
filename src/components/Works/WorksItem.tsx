@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import primaryWorkImg from "../../assets/images/work-primary.jpg";
-import secondaryWorkImg from "../../assets/images/work-secondary.jpg";
 
 type styleTypeProps = {
   styleType: string;
@@ -17,15 +15,7 @@ const WorksItem = () => {
     <>
       <S_WorksItem>
         <S_WorksImg styleType="primary">
-          <img src={primaryWorkImg} alt="Work A" />
-          <a href="https://pixabay.com/ja/users/startupstockphotos-690514/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">
-            StartupStockPhotos
-          </a>
-          による
-          <a href="https://pixabay.com/ja//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">
-            Pixabay
-          </a>
-          からの画像
+          <img src="https://placehold.jp/800x600.png" alt="Work A" />
         </S_WorksImg>
         <S_WorksItemText>
           <h3>過去の仕事1</h3>
@@ -46,15 +36,7 @@ const WorksItem = () => {
       </S_WorksItem>
       <S_WorksItem>
         <S_WorksImg styleType="secondary">
-          <img src={secondaryWorkImg} alt="Work B" />
-          <a href="https://pixabay.com/ja/users/skitterphoto-324082/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2982270">
-            Rudy and Peter Skitterians
-          </a>
-          による
-          <a href="https://pixabay.com/ja//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2982270">
-            Pixabay
-          </a>
-          からの画像
+          <img src="https://placehold.jp/800x600.png" alt="Work B" />
         </S_WorksImg>
         <S_WorksItemText>
           <h3>過去の仕事2</h3>

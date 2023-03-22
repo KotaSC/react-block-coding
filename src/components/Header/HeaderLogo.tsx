@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "../../assets/images/logo.svg";
 
 const S_HeaderLogo = styled.div`
   img {
@@ -10,7 +9,7 @@ const S_HeaderLogo = styled.div`
 const HeaderLogo = () => {
   return (
     <S_HeaderLogo>
-      <img src={logo} alt="logo" />
+      <img src="https://placehold.jp/150x150.png" alt="logo" />
       <span>Designer/Developer</span>
     </S_HeaderLogo>
   );

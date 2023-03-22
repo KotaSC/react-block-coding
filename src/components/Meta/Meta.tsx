@@ -1,7 +1,6 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Normalize } from "styled-normalize";
 import Favicon from "react-favicon";
-import fav from "../../assets/images/favicon.png";
 
 const Meta = () => {
   return (
@@ -16,7 +15,7 @@ const Meta = () => {
           <title>Sample Profile Page</title>
         </Helmet>
       </HelmetProvider>
-      <Favicon url={fav} />
+      <Favicon url="https://placehold.jp/16x16.png?text=P" />
       <Normalize />
     </>
   );
