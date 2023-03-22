@@ -25,7 +25,7 @@ const AboutDesc = () => {
       </S_Description>
       <S_Addition>
         <h3>スキルセット</h3>
-        <Skills />
+        {/* <Skills /> */}
         <h3>関連リンク</h3>
         <Follow />
       </S_Addition>

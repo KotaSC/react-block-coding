@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const S_HeaderNav = styled.nav``;
+const S_Nav = styled.nav``;
 
-const HeaderNav = () => {
+const Nav = () => {
   return (
-    <S_HeaderNav>
+    <S_Nav>
       <ul>
         <li>
           <a href="">Home</a>
@@ -19,8 +19,8 @@ const HeaderNav = () => {
           <a href="">Contact</a>
         </li>
       </ul>
-    </S_HeaderNav>
+    </S_Nav>
   );
 };
 
-export default HeaderNav;
+export default Nav;

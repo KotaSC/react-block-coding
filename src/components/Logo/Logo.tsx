@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
-const S_HeaderLogo = styled.div`
+const S_Logo = styled.div`
   img {
     width: 100px;
   }
 `;
-
-const HeaderLogo = () => {
+const Logo = () => {
   return (
-    <S_HeaderLogo>
+    <S_Logo>
       <img src="https://placehold.jp/150x150.png" alt="logo" />
       <span>Designer/Developer</span>
-    </S_HeaderLogo>
+    </S_Logo>
   );
 };
 
-export default HeaderLogo;
+export default Logo;

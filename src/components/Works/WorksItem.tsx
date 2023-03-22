@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Button from "../Button/Button";
 
 type styleTypeProps = {
   styleType: string;
@@ -32,6 +33,7 @@ const WorksItem = () => {
             dolores commodo. Ut iusto voluptua et sadipscing congue est eleifend
             lorem consectetuer diam consectetuer diam ullamcorper eirmod.
           </p>
+          <Button type="primary" text="もっと読む" />
         </S_WorksItemText>
       </S_WorksItem>
       <S_WorksItem>
@@ -51,8 +53,9 @@ const WorksItem = () => {
             erat ipsum vero iriure ipsum molestie et lorem sed accumsan
             tincidunt nonumy amet possim et. Lorem dolor ut no sit exerci
             dolores commodo. Ut iusto voluptua et sadipscing congue est eleifend
-            lorem consectetuer diam consectetuer diam ullamcorper eirmod.
+            lorem consectetuer diam consect etuer diam ullamcorper eirmod.
           </p>
+          <Button type="secondary" text="もっと読む" />
         </S_WorksItemText>
       </S_WorksItem>
     </>

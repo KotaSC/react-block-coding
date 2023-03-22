@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import HeaderLogo from "./HeaderLogo";
-import HeaderNav from "./HeaderNav";
+import Logo from "../Logo/Logo";
+import Nav from "../Nav/Nav";
 
 const S_Header = styled.header``;
 
 const Header = () => {
   return (
     <S_Header>
-      <HeaderLogo />
-      <HeaderNav />
+      <Logo />
+      <Nav />
     </S_Header>
   );
 };
