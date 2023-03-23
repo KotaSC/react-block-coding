@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Container from "../Container/Container";
-import Button from "../Button/Button";
+import Container from "../common/Container";
+import Button from "../common/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 

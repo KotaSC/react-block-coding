@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Container from "../Container/Container";
+import Container from "../common/Container";
 import WorksItem from "./WorksItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";

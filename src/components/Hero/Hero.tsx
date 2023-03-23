@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Container from "../Container/Container";
-import Social from "../Social/Social";
+import Container from "../common/Container";
+import Social from "../common/Social";
 
 const S_Hero = styled.section``;
 

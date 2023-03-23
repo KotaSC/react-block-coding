@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Logo from "../Logo/Logo";
-import Nav from "../Nav/Nav";
+import Logo from "../common/Logo";
+import Nav from "../common/Nav";
 
 const S_Header = styled.header``;
 
