@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <S_Header>
       <Logo />
-      <Nav />
+      <Nav styleType="header" />
     </S_Header>
   );
 };

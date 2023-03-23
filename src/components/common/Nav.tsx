@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
-const S_Nav = styled.nav``;
+type styleTypeProps = {
+  styleType: string;
+};
 
-const Nav = () => {
+const S_Nav = styled.nav<styleTypeProps>``;
+
+const Nav = (props: styleTypeProps) => {
   return (
-    <S_Nav>
+    <S_Nav styleType={props.styleType}>
       <ul>
         <li>
           <a href="">Home</a>
@@ -15,9 +19,11 @@ const Nav = () => {
         <li>
           <a href="">About</a>
         </li>
-        <li>
-          <a href="">Contact</a>
-        </li>
+        {props.styleType === "header" && (
+          <li>
+            <a href="">Contact</a>
+          </li>
+        )}
       </ul>
     </S_Nav>
   );
