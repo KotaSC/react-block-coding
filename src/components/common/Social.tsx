@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDribbble } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faMedium } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faDribbble,
+  faLinkedin,
+  faMedium,
+  faYoutube,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const S_SocialUl = styled.ul``;
 
