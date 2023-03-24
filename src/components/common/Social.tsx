@@ -11,43 +11,43 @@ import {
 
 const Social = () => {
   return (
-    <S_SocialUl>
-      <S_SocialLi>
+    <S_SocialLinks>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-      </S_SocialLi>
-      <S_SocialLi>
+      </S_SocialItem>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faDribbble} size="2x" />
         </a>
-      </S_SocialLi>
-      <S_SocialLi>
+      </S_SocialItem>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
-      </S_SocialLi>
-      <S_SocialLi>
+      </S_SocialItem>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faMedium} size="2x" />
         </a>
-      </S_SocialLi>
-      <S_SocialLi>
+      </S_SocialItem>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
-      </S_SocialLi>
-      <S_SocialLi>
+      </S_SocialItem>
+      <S_SocialItem>
         <a href="" target="_blank">
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
-      </S_SocialLi>
-    </S_SocialUl>
+      </S_SocialItem>
+    </S_SocialLinks>
   );
 };
 
 export default Social;
 
-const S_SocialUl = styled.ul``;
+const S_SocialLinks = styled.ul``;
 
-const S_SocialLi = styled.li``;
+const S_SocialItem = styled.li``;
