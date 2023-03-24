@@ -9,10 +9,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-const S_SocialUl = styled.ul``;
-
-const S_SocialLi = styled.li``;
-
 const Social = () => {
   return (
     <S_SocialUl>
@@ -51,3 +47,7 @@ const Social = () => {
 };
 
 export default Social;
+
+const S_SocialUl = styled.ul``;
+
+const S_SocialLi = styled.li``;

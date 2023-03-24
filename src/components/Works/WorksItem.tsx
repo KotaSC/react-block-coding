@@ -1,16 +1,6 @@
 import styled from "styled-components";
 import Button from "../common/Button";
 
-type styleTypeProps = {
-  styleType: string;
-};
-
-const S_WorksItem = styled.div``;
-
-const S_WorksItemText = styled.div``;
-
-const S_WorksImg = styled.figure<styleTypeProps>``;
-
 const WorksItem = () => {
   return (
     <>
@@ -61,5 +51,15 @@ const WorksItem = () => {
     </>
   );
 };
+
+type styleTypeProps = {
+  styleType: string;
+};
+
+const S_WorksItem = styled.div``;
+
+const S_WorksItemText = styled.div``;
+
+const S_WorksImg = styled.figure<styleTypeProps>``;
 
 export default WorksItem;

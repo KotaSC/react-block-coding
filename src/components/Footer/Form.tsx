@@ -3,14 +3,6 @@ import Button from "../common/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const S_Form = styled.div``;
-
-const S_Contact = styled.div``;
-
-const S_Input = styled.div``;
-
-const S_Textarea = styled.div``;
-
 const Form = () => {
   return (
     <S_Form>
@@ -32,5 +24,13 @@ const Form = () => {
     </S_Form>
   );
 };
+
+const S_Form = styled.div``;
+
+const S_Contact = styled.div``;
+
+const S_Input = styled.div``;
+
+const S_Textarea = styled.div``;
 
 export default Form;

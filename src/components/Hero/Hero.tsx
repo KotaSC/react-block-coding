@@ -2,14 +2,6 @@ import styled from "styled-components";
 import Container from "../common/Container";
 import Social from "../common/Social";
 
-const S_Hero = styled.section``;
-
-const S_HeroHighlight = styled.div``;
-
-const S_HeroImage = styled.figure``;
-
-const S_HeroLinks = styled.div``;
-
 const Hero = () => {
   return (
     <S_Hero>
@@ -44,5 +36,13 @@ const Hero = () => {
     </S_Hero>
   );
 };
+
+const S_Hero = styled.section``;
+
+const S_HeroHighlight = styled.div``;
+
+const S_HeroImage = styled.figure``;
+
+const S_HeroLinks = styled.div``;
 
 export default Hero;

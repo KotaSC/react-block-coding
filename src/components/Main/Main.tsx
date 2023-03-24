@@ -3,8 +3,6 @@ import Hero from "../Hero/Hero";
 import Works from "../Works/Works";
 import About from "../About/About";
 
-const S_Main = styled.main``;
-
 const Main = () => {
   return (
     <S_Main>
@@ -14,5 +12,7 @@ const Main = () => {
     </S_Main>
   );
 };
+
+const S_Main = styled.main``;
 
 export default Main;

@@ -4,8 +4,6 @@ import WorksItem from "./WorksItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
 
-const S_Works = styled.section``;
-
 const Works = () => {
   return (
     <S_Works>
@@ -18,5 +16,7 @@ const Works = () => {
     </S_Works>
   );
 };
+
+const S_Works = styled.section``;
 
 export default Works;

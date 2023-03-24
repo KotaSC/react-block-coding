@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+const Button = (props: buttonProps) => {
+  return <S_Button styleType={props.type}>{props.text}</S_Button>;
+};
+
 type styleTypeProps = {
   styleType: string;
 };
@@ -10,9 +14,5 @@ type buttonProps = {
 };
 
 const S_Button = styled.a<styleTypeProps>``;
-
-const Button = (props: buttonProps) => {
-  return <S_Button styleType={props.type}>{props.text}</S_Button>;
-};
 
 export default Button;

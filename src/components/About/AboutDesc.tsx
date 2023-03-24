@@ -2,12 +2,6 @@ import styled from "styled-components";
 import Skills from "./Skills";
 import Follow from "./Follow";
 
-const S_Container = styled.div``;
-
-const S_Description = styled.div``;
-
-const S_Addition = styled.div``;
-
 const AboutDesc = () => {
   return (
     <S_Container>
@@ -25,12 +19,18 @@ const AboutDesc = () => {
       </S_Description>
       <S_Addition>
         <h3>スキルセット</h3>
-        {/* <Skills /> */}
+        <Skills />
         <h3>関連リンク</h3>
         <Follow />
       </S_Addition>
     </S_Container>
   );
 };
+
+const S_Container = styled.div``;
+
+const S_Description = styled.div``;
+
+const S_Addition = styled.div``;
 
 export default AboutDesc;

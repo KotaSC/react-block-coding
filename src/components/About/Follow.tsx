@@ -9,12 +9,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-const S_Follow = styled.div``;
-
-const S_SocialLinks = styled.ul``;
-
-const S_SocialItem = styled.li``;
-
 const Follow = () => {
   return (
     <S_Follow>
@@ -53,5 +47,11 @@ const Follow = () => {
     </S_Follow>
   );
 };
+
+const S_Follow = styled.div``;
+
+const S_SocialLinks = styled.ul``;
+
+const S_SocialItem = styled.li``;
 
 export default Follow;

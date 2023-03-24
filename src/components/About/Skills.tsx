@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-const S_Skills = styled.div``;
-
-const S_SkillList = styled.ul``;
-
-const S_SkillItem = styled.li``;
-
 const Skills = () => {
   return (
     <S_Skills>
@@ -27,5 +21,11 @@ const Skills = () => {
     </S_Skills>
   );
 };
+
+const S_Skills = styled.div``;
+
+const S_SkillList = styled.ul``;
+
+const S_SkillItem = styled.li``;
 
 export default Skills;

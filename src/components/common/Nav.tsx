@@ -1,11 +1,5 @@
 import styled from "styled-components";
 
-type styleTypeProps = {
-  styleType: string;
-};
-
-const S_Nav = styled.nav<styleTypeProps>``;
-
 const Nav = (props: styleTypeProps) => {
   return (
     <S_Nav styleType={props.styleType}>
@@ -28,5 +22,11 @@ const Nav = (props: styleTypeProps) => {
     </S_Nav>
   );
 };
+
+type styleTypeProps = {
+  styleType: string;
+};
+
+const S_Nav = styled.nav<styleTypeProps>``;
 
 export default Nav;

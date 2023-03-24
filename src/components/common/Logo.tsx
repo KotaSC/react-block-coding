@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-const S_Logo = styled.div`
-  img {
-    width: 100px;
-  }
-`;
 const Logo = () => {
   return (
     <S_Logo>
@@ -13,5 +8,11 @@ const Logo = () => {
     </S_Logo>
   );
 };
+
+const S_Logo = styled.div`
+  img {
+    width: 100px;
+  }
+`;
 
 export default Logo;

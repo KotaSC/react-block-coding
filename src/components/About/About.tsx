@@ -3,10 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIcons } from "@fortawesome/free-solid-svg-icons";
 import AboutDesc from "./AboutDesc";
 
-const S_About = styled.section``;
-
-const S_AboutImage = styled.figure``;
-
 const About = () => {
   return (
     <S_About>
@@ -30,5 +26,9 @@ const About = () => {
     </S_About>
   );
 };
+
+const S_About = styled.section``;
+
+const S_AboutImage = styled.figure``;
 
 export default About;
