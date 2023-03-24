@@ -7,7 +7,9 @@ const FooterInfo = () => {
     <S_Info>
       <Nav styleType="footer" />
       <Social />
-      <S_CopyRight></S_CopyRight>
+      <S_CopyRight>
+        <small>© 2022 Elle Kasai. All Rigths Reserved.</small>
+      </S_CopyRight>
     </S_Info>
   );
 };
