@@ -5,7 +5,7 @@ import Info from "./Info";
 
 const Footer = () => {
   return (
-    <S_Footer>
+    <S_Footer id="contact">
       <Container>
         <Form />
         <Info />

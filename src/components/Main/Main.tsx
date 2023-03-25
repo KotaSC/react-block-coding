@@ -5,7 +5,7 @@ import About from "../About/About";
 
 const Main = () => {
   return (
-    <S_Main>
+    <S_Main id="home">
       <Hero />
       <Works />
       <About />

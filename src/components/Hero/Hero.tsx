@@ -20,7 +20,7 @@ const Hero = () => {
               </a>
               にまとまっています．
               <br />
-              お問い合わせは<a href="">コンタクトフォーム</a>からどうぞ
+              お問い合わせは<a href="#contact">コンタクトフォーム</a>からどうぞ
             </p>
             <Social />
           </S_HeroLinks>

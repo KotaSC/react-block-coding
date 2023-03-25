@@ -6,7 +6,7 @@ import { faPalette } from "@fortawesome/free-solid-svg-icons";
 
 const Works = () => {
   return (
-    <S_Works>
+    <S_Works id="works">
       <h2>
         <FontAwesomeIcon icon={faPalette} />
       </h2>

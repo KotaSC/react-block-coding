@@ -5,7 +5,7 @@ import AboutDesc from "./AboutDesc";
 
 const About = () => {
   return (
-    <S_About>
+    <S_About id="about">
       <h2>
         <FontAwesomeIcon icon={faIcons} />
         About
