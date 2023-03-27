@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import Skills from "./Skills";
 import Follow from "./Follow";
+import Container from "../common/Container";
 
 const AboutDesc = () => {
   return (
-    <S_Container>
+    <Container>
       <S_Description>
         <h3>自己紹介</h3>
         <p>
@@ -23,11 +24,9 @@ const AboutDesc = () => {
         <h3>関連リンク</h3>
         <Follow />
       </S_Addition>
-    </S_Container>
+    </Container>
   );
 };
-
-const S_Container = styled.div``;
 
 const S_Description = styled.div``;
 

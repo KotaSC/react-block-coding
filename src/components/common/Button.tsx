@@ -13,6 +13,16 @@ type buttonProps = {
   text: string;
 };
 
-const S_Button = styled.a<styleTypeProps>``;
+const S_Button = styled.a<styleTypeProps>`
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  color: #fff7f7;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+`;
 
 export default Button;
