@@ -23,6 +23,17 @@ const S_Button = styled.a<styleTypeProps>`
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
+  cursor: pointer;
+  background-color: ${(props) =>
+    props.styleType === "primary" ? "#53687E" : "#6B4E71"};
+
+  &:hover,
+  &:focus {
+    ${(props) =>
+      props.styleType === "primary"
+        ? "background-color: #495B6F"
+        : "background-color: #5D4462"};
+  }
 `;
 
 export default Button;
