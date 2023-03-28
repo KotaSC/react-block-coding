@@ -48,6 +48,11 @@ const Social = () => {
 
 export default Social;
 
-const S_SocialLinks = styled.ul``;
+const S_SocialLinks = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  column-gap: 20px;
+`;
 
 const S_SocialItem = styled.li``;
