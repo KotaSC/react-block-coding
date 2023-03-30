@@ -3,22 +3,22 @@ import styled from "styled-components";
 const Nav = (props: styleTypeProps) => {
   return (
     <S_Nav styleType={props.styleType}>
-      <ul>
-        <li>
+      <S_NavList>
+        <S_NavItem>
           <a href="#home">Home</a>
-        </li>
-        <li>
+        </S_NavItem>
+        <S_NavItem>
           <a href="#works">Works</a>
-        </li>
-        <li>
+        </S_NavItem>
+        <S_NavItem>
           <a href="#about">About</a>
-        </li>
+        </S_NavItem>
         {props.styleType === "header" && (
-          <li>
+          <S_NavItem>
             <a href="#contact">Contact</a>
-          </li>
+          </S_NavItem>
         )}
-      </ul>
+      </S_NavList>
     </S_Nav>
   );
 };
@@ -28,5 +28,20 @@ type styleTypeProps = {
 };
 
 const S_Nav = styled.nav<styleTypeProps>``;
+
+const S_NavList = styled.ul`
+  display: flex;
+`;
+
+const S_NavItem = styled.li`
+  a {
+    color: #fff7f7;
+
+    &:hover,
+    &:focus {
+      color: #ffc4c4;
+    }
+  }
+`;
 
 export default Nav;
