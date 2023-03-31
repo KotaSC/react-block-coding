@@ -56,10 +56,21 @@ type styleTypeProps = {
   styleType: string;
 };
 
-const S_WorksItem = styled.div``;
+const S_WorksItem = styled.div`
+  &:last-child {
+    margin-bottom: 0;
+  }
+`;
 
 const S_WorksItemText = styled.div``;
 
-const S_WorksImg = styled.figure<styleTypeProps>``;
+const S_WorksImg = styled.figure<styleTypeProps>`
+  img {
+    ${(props) =>
+      props.styleType === "primary"
+        ? "box-shadow: 1px 1px 10px rgba(0, 0, 0, 15%), 10px 10px 0 #53687e"
+        : "box-shadow: 1px 1px 10px rgba(0, 0, 0, 15%), 10px 10px 0 #6b4e71"};
+  }
+`;
 
 export default WorksItem;

@@ -28,7 +28,7 @@ const Hero = () => {
         <S_HeroImage>
           <img
             className="mobile"
-            src="https://placehold.jp/1200x480.png"
+            src="https://placehold.jp/500x380.png"
             alt="profile"
           />
         </S_HeroImage>
@@ -37,12 +37,30 @@ const Hero = () => {
   );
 };
 
-const S_Hero = styled.section``;
+const S_Hero = styled.section`
+  background-color: #6b4e71;
+`;
 
-const S_HeroHighlight = styled.div``;
+const S_HeroHighlight = styled.div`
+  color: #fff7f7;
+`;
 
 const S_HeroImage = styled.figure``;
 
-const S_HeroLinks = styled.div``;
+const S_HeroLinks = styled.div`
+  P {
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: #fff7f7;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      color: #ffc4c4;
+    }
+  }
+`;
 
 export default Hero;

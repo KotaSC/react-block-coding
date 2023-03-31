@@ -17,6 +17,8 @@ const Works = () => {
   );
 };
 
-const S_Works = styled.section``;
+const S_Works = styled.section`
+  background-color: #fff7f7;
+`;
 
 export default Works;
