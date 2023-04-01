@@ -66,6 +66,7 @@ const S_WorksItemText = styled.div``;
 
 const S_WorksImg = styled.figure<styleTypeProps>`
   img {
+    border-radius: 5px;
     ${(props) =>
       props.styleType === "primary"
         ? "box-shadow: 1px 1px 10px rgba(0, 0, 0, 15%), 10px 10px 0 #53687e"
