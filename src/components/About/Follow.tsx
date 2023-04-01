@@ -9,6 +9,13 @@ const Follow = () => {
   );
 };
 
-const S_Follow = styled.div``;
+const S_Follow = styled.div`
+  a {
+    color: #c2b2b4;
+
+    &:hover, &:focus {
+      color: #ab9698;
+  }
+`;
 
 export default Follow;

@@ -24,7 +24,10 @@ const Skills = () => {
 
 const S_Skills = styled.div``;
 
-const S_SkillList = styled.ul``;
+const S_SkillList = styled.ul`
+  padding-left: 20px;
+  list-style: disc;
+`;
 
 const S_SkillItem = styled.li``;
 

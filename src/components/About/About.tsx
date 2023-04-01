@@ -27,7 +27,9 @@ const About = () => {
   );
 };
 
-const S_About = styled.section``;
+const S_About = styled.section`
+  background-color: #fff;
+`;
 
 const S_AboutImage = styled.figure``;
 
