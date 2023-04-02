@@ -33,6 +33,20 @@ const S_Input = styled.input`
   border: 1px solid #c2b2b4;
   border-radius: 5px;
   color: #fff7f7;
+
+  ::placeholder {
+    color: #9c9da5;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 0, 0, 10%);
+  }
+
+  &:focus-visible {
+    outline: 1px solid #c2b2b4;
+    border: 1px solid #c2b2b4;
+  }
 `;
 
 const S_Textarea = styled(S_Input.withComponent("textarea"))``;
