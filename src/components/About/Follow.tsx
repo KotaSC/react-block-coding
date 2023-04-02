@@ -13,7 +13,8 @@ const S_Follow = styled.div`
   a {
     color: #c2b2b4;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: #ab9698;
   }
 `;

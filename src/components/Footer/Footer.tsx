@@ -14,6 +14,9 @@ const Footer = () => {
   );
 };
 
-const S_Footer = styled.footer``;
+const S_Footer = styled.footer`
+  background-color: #3a4454;
+  color: #fff7f7;
+`;
 
 export default Footer;
