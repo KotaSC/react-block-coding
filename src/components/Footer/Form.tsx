@@ -8,11 +8,15 @@ const Form = () => {
     <S_Form>
       <p>お仕事のご依頼やご相談等，お問い合わせはこちらからどうぞ．</p>
       <S_Contact>
-        <FontAwesomeIcon icon={faUser} />
-        <S_Input type="text" placeholder="氏名" />
+        <S_FormItem>
+          <FontAwesomeIcon icon={faUser} className="icon" />
+          <S_Input type="text" placeholder="氏名" />
+        </S_FormItem>
 
-        <FontAwesomeIcon icon={faEnvelope} />
-        <S_Input type="email" placeholder="メールアドレス" />
+        <S_FormItem>
+          <FontAwesomeIcon icon={faEnvelope} className="icon" />
+          <S_Input type="email" placeholder="メールアドレス" />
+        </S_FormItem>
 
         <S_Textarea placeholder="お問い合わせ内容" />
         <Button type="primary" text="送信する" />
@@ -27,12 +31,24 @@ const S_Form = styled.div`
 
 const S_Contact = styled.div``;
 
+const S_FormItem = styled.div`
+  position: relative;
+
+  .icon {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    color: #fff7f7;
+  }
+`;
+
 const S_Input = styled.input`
   width: 100%;
   background-color: transparent;
   border: 1px solid #c2b2b4;
   border-radius: 5px;
   color: #fff7f7;
+  padding: 10px 15px 10px 40px;
 
   ::placeholder {
     color: #9c9da5;
@@ -49,6 +65,10 @@ const S_Input = styled.input`
   }
 `;
 
-const S_Textarea = styled(S_Input.withComponent("textarea"))``;
+const S_Textarea = styled(S_Input.withComponent("textarea"))`
+  height: 150px;
+  padding: 10px 15px;
+  resize: none;
+`;
 
 export default Form;
