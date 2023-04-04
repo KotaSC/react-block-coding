@@ -14,8 +14,26 @@ const FooterInfo = () => {
   );
 };
 
-const S_Info = styled.div``;
+const S_Info = styled.div`
+  ul {
+    font-family: "Piazzolla", "Times New Roman", "YuMincho",
+      "Hiragino Mincho ProN", "Yu Minhco", "MS PMincho", serif;
+  }
 
-const S_CopyRight = styled.p``;
+  a {
+    color: #fff7f7;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      color: #9c9da5;
+    }
+  }
+`;
+
+const S_CopyRight = styled.p`
+  color: #9c9da5;
+`;
 
 export default FooterInfo;
